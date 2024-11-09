@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Birthday Cake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="birthday-cake"> 
+      <div class="cake">
+        <div class="middle"></div>
+        <div class="chocs"></div>
+        <div class="top"></div>
+      </div>
+      <div class="candles">
+        <div class="flame" id="flame1"></div>
+        <div class="flame2" id="flame2"></div>
+        <div class="flame3" id="flame3"></div>
+        <div class="text">❤️Happy Birthday Plengpin!😘</div>
+        <div class="shadows"></div>
+      </div>
+      <p class="text2">Make a wish and blow on the microphone to extinguish candles!</p>
+    </div>
+    
+    <!-- Audio element for bir thday song -->
+    <audio id="birthday-song" autoplay loop>
+        <source src="Happy.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
